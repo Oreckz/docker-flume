@@ -18,4 +18,6 @@ ADD start-flume.sh /opt/flume/bin/start-flume
 ENV JAVA_HOME /opt/java
 ENV PATH /opt/flume/bin:/opt/java/bin:$PATH
 
+EXPOSE 44444
+
 CMD [ "start-flume" ]
